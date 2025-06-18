@@ -110,7 +110,7 @@ def callback_inline(call):
         rows = cursor.fetchall()
         conn.close()
 
-        markup = InlineKeyboardMarkup(row_width=1)  # по одной кнопке в строке
+        markup = InlineKeyboardMarkup(row_width=1)
         for telegram_id, fullname in rows:
             button = InlineKeyboardButton(
                 text=fullname,
@@ -166,7 +166,7 @@ def callback_inline(call):
         rows = cursor.fetchall()
         conn.close()
 
-        markup = InlineKeyboardMarkup(row_width=1)  # по одной кнопке в строке
+        markup = InlineKeyboardMarkup(row_width=1)
         for telegram_id, fullname in rows:
             button = InlineKeyboardButton(
                 text=fullname,
