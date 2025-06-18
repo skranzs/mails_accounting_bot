@@ -6,7 +6,6 @@ from reportlab.pdfbase.ttfonts import TTFont
 import sqlite3
 import os
 
-# Регистрируем шрифт с поддержкой кириллицы
 pdfmetrics.registerFont(TTFont('DejaVu', 'DejaVuSans.ttf'))
 
 def generate_pdf_by_type(db_path, output_pdf, letter_type):
