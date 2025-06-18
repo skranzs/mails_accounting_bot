@@ -1,7 +1,7 @@
 from telebot.types import *
 import telebot as tb
 import sqlite3
-bot = tb.TeleBot('7320766736:AAFK0Qc7k2mwtspoxGTv_kpeX-tsQufvZKQ')
+bot = tb.TeleBot('')
 
 
 def strw(call, znach):
